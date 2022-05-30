@@ -3,12 +3,14 @@
 ## For 8255 chip
 
 Addr8 = 1
+
 Addr7 = 0
+
 Addr6 $\sim$ 4 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
+
 Addr3 $\sim$ 0 = 0000 $\sim$ 1111
 
 Since 8255 is $Y_{2}$, its address range is 120H~127H. 
-
 
 $$
 \begin{array}{|c|c|c|c|c|}

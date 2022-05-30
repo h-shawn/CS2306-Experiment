@@ -3,9 +3,10 @@
 ## For 62256 memory chips
 
 Addr19 = 0
-Addr18 $\sim$ 16 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
-Addr15 $\sim$ 0 = 0000H $\sim$ 1111H
 
+Addr18 $\sim$ 16 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
+
+Addr15 $\sim$ 0 = 0000H $\sim$ 1111H
 
 $$
 \begin{array}{|c|c|}
@@ -27,12 +28,14 @@ If the address range of U10 and U11 starts from 80000h, we need to modify Addr19
 ## For four registers of 8255 chip
 
 Addr7 = 1
+
 Addr6 = 0
+
 Addr5 $\sim$ 3 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
+
 Addr2 $\sim$ 0 = 000 $\sim$ 111
 
 Since 8255 is $Y_{2}$, its address range is 90H~97H. 
-
 
 $$
 \begin{array}{|c|c|c|c|c|}
