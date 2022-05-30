@@ -4,6 +4,8 @@ Addr7 = 1
 Addr6 = 0
 Addr5 $\sim$ 3 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
 Addr2 $\sim$ 0 = 000 $\sim$ 111
+
+
 $$
 \begin{array}{|c|c|c|}
         \hline \text { Memory Chip } & \text { Address range } & \text { binary }\\

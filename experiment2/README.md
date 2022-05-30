@@ -5,6 +5,8 @@
 Addr19 = 0
 Addr18 $\sim$ 16 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
 Addr15 $\sim$ 0 = 0000H $\sim$ 1111H
+
+
 $$
 \begin{array}{|c|c|}
         \hline \text { Memory Chip } & \text { Address range } \\
@@ -30,6 +32,8 @@ Addr5 $\sim$ 3 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
 Addr2 $\sim$ 0 = 000 $\sim$ 111
 
 Since 8255 is $Y_{2}$, its address range is 90H~97H. 
+
+
 $$
 \begin{array}{|c|c|c|c|c|}
         \hline \text { Register } & \text { $A_{1}$ } & \text { $A_{0}$ } & \text { Addr }(D_{0}\sim D_{7}) & \text { Addr }(D_{8}\sim D_{15})\\
@@ -42,6 +46,7 @@ $$
 $$
 
 ## For PA, PB and PC ports
+
 
 $$
 \begin{array}{|c|c|}

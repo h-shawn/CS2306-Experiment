@@ -8,6 +8,8 @@ Addr6 $\sim$ 4 = 000 $\sim$ 111 ($Y_{0}\sim Y_{7}$)
 Addr3 $\sim$ 0 = 0000 $\sim$ 1111
 
 Since 8255 is $Y_{2}$, its address range is 120H~127H. 
+
+
 $$
 \begin{array}{|c|c|c|c|c|}
         \hline \text { Register } & \text { $A_{1}$ } & \text { $A_{0}$ } & \text { Addr }(D_{0}\sim D_{7}) & \text { Addr }(D_{8}\sim D_{15})\\
@@ -33,6 +35,8 @@ $$
 ## For 8253 chip
 
 Since 8253 is $Y_{0}$, its address range is 100H~107H. 
+
+
 $$
 \begin{array}{|c|c|c|c|c|}
         \hline \text { Register } & \text { $A_{1}$ } & \text { $A_{0}$ } & \text { Addr }(D_{0}\sim D_{7}) & \text { Addr }(D_{8}\sim D_{15})\\
